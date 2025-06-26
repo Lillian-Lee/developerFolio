@@ -39,6 +39,7 @@ const socialMediaLinks = {
   display: true // Set true to display this section, defaults to false
 };
 
+
 // Skills Section
 
 const skillsSection = {
@@ -341,13 +342,6 @@ const resumeSection = {
 
   // Please Provide with Your Podcast embeded Link
   display: false // Set false to hide this section, defaults to true
-};
-
-const socialMediaLinks = {
-  github: "https://github.com/Lillian-Lee",
-  linkedin: "https://www.linkedin.com/in/lillian-lee-data-analyst/",
-  gmail: "lillian00lee@gmail.com",
-  display: true
 };
 
 
