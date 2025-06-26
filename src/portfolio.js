@@ -335,17 +335,6 @@ const podcastSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
-// Hireability Section
-const isHireable = true;
-
-// Optional Contact Info (add only if you're using it in a component)
-const contactInfo = {
-  email: "lillian00lee@gmail.com",
-  phone: "",
-  address: "Christchurch, New Zealand",
-  display: true // Set false to hide this section
-};
-
 // Resume Section
 const resumeSection = {
   title: "Resume",
@@ -355,6 +344,22 @@ const resumeSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
+const contactInfo = {
+  title: emoji("Contact Me ☎️"),
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+92-0000000000",
+  email_address: "lillian00lee@gmail.com"
+};
+
+// Twitter Section
+
+const twitterDetails = {
+  userName: "twitter", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
+};
+
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -371,7 +376,8 @@ export {
   blogSection,
   talkSection,
   podcastSection,
-  resumeSection,
+  contactInfo,
+  twitterDetails,
   isHireable,
-  contactInfo
+  resumeSection
 };
