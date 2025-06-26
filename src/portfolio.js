@@ -360,7 +360,5 @@ export {
   blogSection,
   talkSection,
   podcastSection,
-  twitterDetails,
-  isHireable,
   resumeSection
 };
