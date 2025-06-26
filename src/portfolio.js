@@ -20,28 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Lillian Lee",
+  title: "Hi all, I'm Lillian Lee",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "An Applied Data Science graduate skilled in Python, SQL, and data visualization, with hands-on experience in turning data into insights. I'm currently exploring AI-powered tools and intelligent agents, with a long-term goal to become an AI Engineer or Principal Data & AI Scientist. Passionate about bridging data, technology, and real-world impact."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1vC09cYEWrL7-OhBgmxr2VIyMBzjoKg8C/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/Lillian-Lee/",
+  linkedin: "https://www.linkedin.com/in/lillian-lee-data-analyst/",
+  gmail: "lillian00lee@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -49,103 +43,88 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Applied Data Science graduate with a strong foundation in analytics, machine learning, and data storytelling. Passionate about solving problems with data and building toward intelligent systems.",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("📊 Analyze and visualize data using Python, R, Power BI, and Tableau"),
+    emoji("🧹 Perform data cleaning, preprocessing, and feature engineering for real-world datasets"),
+    emoji("📚 Apply statistical modeling and hypothesis testing to uncover insights"),
+    emoji("🤖 Build supervised and unsupervised machine learning models"),
+    emoji("🌐 Integrate data workflows via APIs and support cross-functional collaboration"),
+    emoji("🗺️ Conduct geospatial analysis using ArcGIS, QGIS, and GeoDa"),
+    emoji("📈 Communicate findings through dashboards and actionable recommendations for stakeholders")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+  {
+    skillName: "Python",
+    fontAwesomeClassname: "fab fa-python"
+  },
+  {
+    skillName: "R",
+    fontAwesomeClassname: "fab fa-r-project" // 你需要引入支持这个图标的包，或用图像代替
+  },
+  {
+    skillName: "SQL",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "Power BI",
+    fontAwesomeClassname: "fas fa-chart-bar" // 没有官方 logo，可用通用图标
+  },
+  {
+    skillName: "Tableau",
+    fontAwesomeClassname: "fas fa-chart-line" // 没有官方 logo
+  },
+  {
+    skillName: "Microsoft Azure",
+    fontAwesomeClassname: "fab fa-microsoft"
+  },
+  {
+    skillName: "Apache Spark",
+    fontAwesomeClassname: "fas fa-bolt" // 也可换成自定义图标
+  },
+  {
+    skillName: "ArcGIS / QGIS",
+    fontAwesomeClassname: "fas fa-map-marked-alt"
+  }
+]
+,
   display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Canterbury",
+      logo: require("./assets/images/ucLogo.jpg"),
+      subHeader: "Master of Applied Data Science",
+      duration: "February 2024 - February 2026",
+      desc: "Studied advanced data analytics, machine learning, and business intelligence with hands-on projects.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Capstone project: Built an AI-powered reporting tool for driver licensing trends in New Zealand",
+        "Worked on real-world datasets using Python, SQL, Power BI"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Communication University of China",
+      logo: require("./assets/images/CUC_logo.png"),
+      subHeader: "Bachelor of Arts in Ideological and Political Education",
+      duration: "September 2004 - June 2009",
+      desc: "Explored public communication, policy understanding and critical thinking with a humanities foundation.",
+      descBullets: [
+        "Student leader in cross-cultural activities",
+        "Developed strong foundation bridging humanities and tech"
+      ]
     }
   ]
 };
+
 
 // Your top 3 proficient stacks/tech experience
 
@@ -153,19 +132,19 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Data Analysis & Visualization",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Backend",
+      Stack: "Machine Learning & Modeling",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Geospatial Analysis",
+      progressPercentage: "75%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
@@ -174,29 +153,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Data Analyst (Academic Project)",
+      company: "Licensing Ecosystem Insights Project",
+      companylogo: require("./assets/images/analysisLogo.png"),
+      date: "Jul 2024 – Nov 2024",
+      desc: "Integrated datasets from six government sources to support investment decisions and regulatory reform.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built predictive models for market demand and regional targeting",
+        "Created Tableau dashboards and financial impact analysis reports"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Spatial Data Analyst (Academic Research)",
+      company: "Multi-Scale Modeling Project",
+      companylogo: require("./assets/images/arcgisLogo.png"),
+      date: "Feb 2025 – Jun 2025",
+      desc: "Analyzed urban poverty clusters in NZ and NYC using spatial statistics and regression techniques",
+      descBullets: [
+        "Applied ArcGIS Pro hotspot analysis, OLS, GWR, spatial lag/error models",
+        "Developed Python automation tools for geospatial data processing"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Survey Analyst",
+      company: "Mother’s Work-Life Balance Study",
+      companylogo: require("./assets/images/surveyLogo.png"),
+      date: "Feb 2024 – Jun 2025",
+      desc: "Designed bilingual surveys, built a full data pipeline and dashboards for social research",
+      descBullets: [
+        "Used Pandas, Seaborn, Matplotlib, Plotly for insight extraction and visualization"
+      ]
     }
   ]
 };
@@ -213,33 +199,22 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Projects exploring data, society and AI capabilities",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/aiLogo.png"),
+      projectName: "AI-Human Therapeutic Discourse Analysis",
+      projectDesc:
+        "Scraped 44 therapy transcripts, created LLM prompts and automated dialogue generation pipeline to compare human-AI sessions.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Report Summary",
+          url: "https://your-report-link.com"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
@@ -300,7 +275,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +299,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +318,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +331,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,25 +340,16 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
-const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+const socialMediaLinks = {
+  github: "https://github.com/Lillian-Lee",
+  linkedin: "https://www.linkedin.com/in/lillian-lee-data-analyst/",
+  gmail: "lillian00lee@gmail.com",
+  display: true
 };
 
-// Twitter Section
-
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
-
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
