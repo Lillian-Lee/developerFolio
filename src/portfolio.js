@@ -335,6 +335,17 @@ const podcastSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
+// Hireability Section
+const isHireable = true;
+
+// Optional Contact Info (add only if you're using it in a component)
+const contactInfo = {
+  email: "lillian00lee@gmail.com",
+  phone: "",
+  address: "Christchurch, New Zealand",
+  display: true // Set false to hide this section
+};
+
 // Resume Section
 const resumeSection = {
   title: "Resume",
@@ -360,5 +371,7 @@ export {
   blogSection,
   talkSection,
   podcastSection,
-  resumeSection
+  resumeSection，
+  isHireable,
+  contactInfo
 };
