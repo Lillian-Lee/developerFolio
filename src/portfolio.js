@@ -156,7 +156,7 @@ const workExperiences = {
     {
       role: "Data Analyst (Academic Project)",
       company: "Licensing Ecosystem Insights Project",
-      companylogo: require("./assets/images/analysisLogo.png"),
+      companylogo: require("./assets/images/analysisLogo.jpg"),
       date: "Jul 2024 – Nov 2024",
       desc: "Integrated datasets from six government sources to support investment decisions and regulatory reform.",
       descBullets: [
@@ -167,7 +167,7 @@ const workExperiences = {
     {
       role: "Spatial Data Analyst (Academic Research)",
       company: "Multi-Scale Modeling Project",
-      companylogo: require("./assets/images/arcgisLogo.png"),
+      companylogo: require("./assets/images/arcGIS.jpg"),
       date: "Feb 2025 – Jun 2025",
       desc: "Analyzed urban poverty clusters in NZ and NYC using spatial statistics and regression techniques",
       descBullets: [
@@ -178,7 +178,7 @@ const workExperiences = {
     {
       role: "Survey Analyst",
       company: "Mother’s Work-Life Balance Study",
-      companylogo: require("./assets/images/surveyLogo.png"),
+      companylogo: require("./assets/images/Analyse.png"),
       date: "Feb 2024 – Jun 2025",
       desc: "Designed bilingual surveys, built a full data pipeline and dashboards for social research",
       descBullets: [
@@ -203,7 +203,7 @@ const bigProjects = {
   subtitle: "Projects exploring data, society and AI capabilities",
   projects: [
     {
-      image: require("./assets/images/aiLogo.png"),
+      image: require("./assets/images/AI.jpg"),
       projectName: "AI-Human Therapeutic Discourse Analysis",
       projectDesc:
         "Scraped 44 therapy transcripts, created LLM prompts and automated dialogue generation pipeline to compare human-AI sessions.",
