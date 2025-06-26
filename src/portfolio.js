@@ -371,7 +371,7 @@ export {
   blogSection,
   talkSection,
   podcastSection,
-  resumeSection，
+  resumeSection,
   isHireable,
   contactInfo
 };
